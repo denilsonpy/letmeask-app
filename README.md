@@ -22,5 +22,5 @@ Real-time question and answer app.
 
 - Room administrator
 
-![alt Room (administrator)](https://github.com/denilsonpy/letmeask-app/blob/master/github/images/.png)
+![alt Room (administrator)](https://github.com/denilsonpy/letmeask-app/blob/master/github/images/admin.png)
 
