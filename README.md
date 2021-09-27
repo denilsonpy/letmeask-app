@@ -3,10 +3,10 @@ NLW Together ReactJS
 
 Real-time question and answer app.
 
-Home
+- Home
 
 ![alt Home image](https://github.com/denilsonpy/letmeask-app/blob/master/github/images/home.png)
 
-Room creation
+- Room creation
 
 ![alt Room creation image](https://github.com/denilsonpy/letmeask-app/blob/master/github/images/create-room.png)
