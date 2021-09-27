@@ -14,3 +14,8 @@ Real-time question and answer app.
 - Room (logged)
 
 ![alt Room (user logged)](https://github.com/denilsonpy/letmeask-app/blob/master/github/images/logged.png)
+
+
+- Room (not logged)
+
+![alt Room (user not logged)](https://github.com/denilsonpy/letmeask-app/blob/master/github/images/no-logged.png)
