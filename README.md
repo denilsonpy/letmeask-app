@@ -19,3 +19,8 @@ Real-time question and answer app.
 - Room (not logged)
 
 ![alt Room (user not logged)](https://github.com/denilsonpy/letmeask-app/blob/master/github/images/no-logged.png)
+
+- Room administrator
+
+![alt Room (administrator)](https://github.com/denilsonpy/letmeask-app/blob/master/github/images/.png)
+
