@@ -1,4 +1,5 @@
 import { useParams, useHistory } from 'react-router-dom';
+import { useEffect } from 'react';
 
 import logoImg from '../assets/images/logo.svg';
 import deleteImg from '../assets/images/delete.svg';
@@ -14,6 +15,7 @@ import { Question } from '../components/Question';
 import '../styles/room.scss'
 import { useRoom } from '../hooks/useRoom';
 import { database } from '../services/firebase';
+import { useAuth } from '../hooks/useAuth';
 
 
 type roomParams = {
@@ -21,11 +23,13 @@ type roomParams = {
 }
 
 export function AdminRoom() {
+  const { user } = useAuth();
   const history = useHistory();
   const params = useParams<roomParams>();
   const roomId = params.id;
 
   const { title, questions } = useRoom(roomId);
+
 
   async function handleEndRoom() {
     await database.ref(`/rooms/${roomId}`).update({
